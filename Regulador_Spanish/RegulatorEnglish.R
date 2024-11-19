@@ -21,7 +21,7 @@ rsconnect::setAccountInfo(name='gonzaloscarpin',
 # Define UI for the app
 ui <- fluidPage(
     theme = shinytheme("cerulean"),
-    titlePanel("Cotton PGR Need Calculator"),
+    titlePanel("Cotton PGR Need Calculator\nAdapted from Landivar, J. (1998) MEPRT METHOD"),
     sidebarLayout(
         sidebarPanel(
             numericInput("final_height", "Final plant height preference (cm):", value = 100, min = 0),
